@@ -3,7 +3,7 @@ name: Deploy Portfolio
 on:
   push:
     branches:
-      - main  # 👈 change to "master" if your default branch is master
+      - main  # or "master" if that's your default
 
 jobs:
   build:
@@ -17,9 +17,10 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 18
+          cache: "npm"   # ✅ speeds up builds
 
       - name: Install Dependencies
-        run: npm install
+        run: npm ci     # ✅ faster, safer than npm install
 
       - name: Build Project
         run: npm run build
@@ -29,4 +30,3 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
- 
