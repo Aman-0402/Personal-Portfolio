@@ -3,6 +3,9 @@ import styles from "./Navbar.module.css";
 import { getImageUrl } from "../../utils";
 import { ThemeContext } from "../../ThemeContext";
 
+// ✅ import react-scroll
+import { Link } from "react-scroll";
+
 export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const { theme, toggleTheme } = useContext(ThemeContext);
@@ -35,11 +38,66 @@ export const Navbar = () => {
           className={`${styles.menuItems} ${menuOpen ? styles.menuOpen : ""}`}
           onClick={() => setMenuOpen(false)}
         >
-          <li><a href="#about">About</a></li>
-          <li><a href="#experience">Experience</a></li>
-          <li><a href="#technologies">My Tech</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li>
+            <Link
+              to="about"
+              smooth={true}
+              duration={500}
+              offset={-60}
+              spy={true}
+              activeClass={styles.activeLink}
+            >
+              About
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="experience"
+              smooth={true}
+              duration={500}
+              offset={-60}
+              spy={true}
+              activeClass={styles.activeLink}
+            >
+              Experience
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="technologies"
+              smooth={true}
+              duration={500}
+              offset={-60}
+              spy={true}
+              activeClass={styles.activeLink}
+            >
+              My Tech
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="projects"
+              smooth={true}
+              duration={500}
+              offset={-60}
+              spy={true}
+              activeClass={styles.activeLink}
+            >
+              Projects
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="contact"
+              smooth={true}
+              duration={500}
+              offset={-60}
+              spy={true}
+              activeClass={styles.activeLink}
+            >
+              Contact
+            </Link>
+          </li>
         </ul>
       </div>
     </nav>

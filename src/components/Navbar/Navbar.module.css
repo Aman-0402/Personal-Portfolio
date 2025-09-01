@@ -130,3 +130,21 @@
     padding: 10px;
   }
 }
+/* Highlight active link */
+.activeLink {
+  color: var(--color-accent);
+  font-weight: 700;
+  position: relative;
+}
+
+.activeLink::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -6px;
+  width: 50%;
+  height: 2px;
+  background: var(--color-accent);
+  transform: translateX(-50%);
+  transition: width 0.3s ease;
+}
