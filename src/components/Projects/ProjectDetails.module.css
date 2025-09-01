@@ -1,0 +1,139 @@
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes pop {
+    0% {
+      transform: scale(0.95);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  .container {
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    animation: fadeIn 0.8s ease-in-out;
+  }
+  
+  .title {
+    font-size: 2.2rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #222;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  .mainImage {
+    width: 100%;
+    max-width: 700px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  .mainImage:hover {
+    transform: scale(1.05);
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  .description {
+    font-size: 1.2rem;
+    color: #ffffff;
+    margin-bottom: 20px;
+    text-align: left;
+    line-height: 1.6;
+  }
+  
+  .subTitle {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 20px 0;
+    text-align: left;
+    color: #ffffff;
+  }
+  
+  .features {
+    text-align: left;
+    padding-left: 20px;
+  }
+  
+  .featureItem {
+    font-size: 1rem;
+    color: #ffffff;
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 20px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .featureItem::before {
+    content: "✔";
+    color: #007bff;
+    font-size: 1.2rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  
+  .featureItem:hover {
+    transform: translateX(5px);
+    color: #0056b3;
+  }
+  
+  .imageGallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+    opacity: 0;
+    animation: fadeIn 1.5s ease-in-out forwards;
+  }
+  
+  .galleryImage {
+    width: 100%;
+    max-width: 1000px;
+    border-radius: 30px;
+    box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    opacity: 0;
+    animation: fadeIn 1.5s ease-in-out 0.3s forwards;
+  }
+  
+  .galleryImage:hover {
+    transform: scale(1.08);
+    box-shadow: 5px 5px 18px rgba(0, 0, 0, 0.25);
+  }
+  
+  .link {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 18px;
+    background: linear-gradient(135deg, #007bff, #0056b3);
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    transition: background 0.3s ease-in-out, transform 0.2s ease-in-out;
+    animation: pop 0.5s ease-in-out;
+  }
+  
+  .link:hover {
+    background: linear-gradient(135deg, #0056b3, #004199);
+    transform: scale(1.05);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+  }
+  

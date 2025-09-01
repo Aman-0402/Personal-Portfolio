@@ -1,0 +1,22 @@
+:root {
+  /* Default: Dark Theme */
+  --color-text: #ffffff;
+  --color-primary: #576cbc;
+  --color-secondary: #19376d;
+  --color-accent: #facc15; /* Softer yellow */
+  --color-bg: #04152d;
+  --color-card: #0b2447;
+
+  /* Fonts */
+  --font-roboto: "Roboto", sans-serif;
+}
+
+[data-theme="light"] {
+  /* Light Theme */
+  --color-text: #222;
+  --color-primary: #3b82f6; /* Modern blue */
+  --color-secondary: #1e40af;
+  --color-accent: #f59e0b; /* Golden accent */
+  --color-bg: #f9fafb; /* Light background */
+  --color-card: #ffffff; /* Card background */
+}

@@ -1,0 +1,122 @@
+[
+  {
+    "title": "HTML",
+    "imageSrc": "skills/html.png",
+    "category": "Web Development"
+  },
+  {
+    "title": "CSS",
+    "imageSrc": "skills/css.png",
+    "category": "Web Development"
+  },
+  {
+    "title": "JavaScript",
+    "imageSrc": "skills/JavaScript.png",
+    "category": "Web Development"
+  },
+  {
+    "title": "TypeScript",
+    "imageSrc": "skills/TypeScript.png",
+    "category": "Web Development"
+  },
+  {
+    "title": "React",
+    "imageSrc": "skills/react.png",
+    "category": "Web Development"
+  },
+  {
+    "title": "Next.js",
+    "imageSrc": "skills/Nextjs.png",
+    "category": "Web Development"
+  },
+  {
+    "title": "Node",
+    "imageSrc": "skills/node.png",
+    "category": "Web Development"
+  },
+  {
+    "title": "Express.js",
+    "imageSrc": "skills/express.png",
+    "category": "Web Development"
+  },
+  {
+    "title": "MongoDB",
+    "imageSrc": "skills/mongodb.png",
+    "category": "Databases"
+  },
+  {
+    "title": "MySQL",
+    "imageSrc": "skills/MySQL.png",
+    "category": "Databases"
+  },
+  {
+    "title": "PostgreSQL",
+    "imageSrc": "skills/PostgresSQL.png",
+    "category": "Databases"
+  },
+  {
+    "title": "Tailwind CSS",
+    "imageSrc": "skills/Tailwind.png",
+    "category": "Web Development"
+  },
+  {
+    "title": "Bootstrap",
+    "imageSrc": "skills/Bootstrap.png",
+    "category": "Web Development"
+  },
+  {
+    "title": "Figma",
+    "imageSrc": "skills/figma.png",
+    "category": "Design Tools"
+  },
+  {
+    "title": "Canva",
+    "imageSrc": "skills/Canva.png",
+    "category": "Design Tools"
+  },
+  {
+    "title": "Angular",
+    "imageSrc": "skills/Angular.png",
+    "category": "Web Development"
+  },
+  {
+    "title": "Git",
+    "imageSrc": "skills/Git.png",
+    "category": "DevOps / Tools"
+  },
+  {
+    "title": "Java",
+    "imageSrc": "skills/Java.png",
+    "category": "Programming Languages"
+  },
+  {
+    "title": "Python",
+    "imageSrc": "skills/Python.png",
+    "category": "Programming Languages"
+  },
+  {
+    "title": "NumPy",
+    "imageSrc": "skills/NumPy.png",
+    "category": "Data Science / ML"
+  },
+  {
+    "title": "Pandas",
+    "imageSrc": "skills/Pandas.png",
+    "category": "Data Science / ML"
+  },
+  {
+    "title": "jQuery",
+    "imageSrc": "skills/jQuery.png",
+    "category": "Web Development"
+  },
+  {
+    "title": "AWS",
+    "imageSrc": "skills/AWS.png",
+    "category": "DevOps / Tools"
+  },
+  {
+    "title": "VS Code",
+    "imageSrc": "skills/vscode.png",
+    "category": "DevOps / Tools"
+  }
+]

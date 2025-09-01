@@ -1,0 +1,141 @@
+[
+  {
+    "title": "Python Learning Website – Interactive Guide",
+    "imageSrc": "projects/pythonproject.png",
+    "description": "Interactive Python learning website with structured chapters, code examples, and quizzes for beginners.",
+    "skills": ["HTML", "CSS", "JavaScript", "Python", "GitHub Pages"],
+    "details": "/projects/python-learning",
+    "source": "https://github.com/Aman-0402/Python",
+    "demo": "https://aman-0402.github.io/Python/",
+    "longDescription": "An interactive Python learning platform hosted on GitHub Pages. It includes step-by-step chapters, real-world code examples, and quizzes to reinforce learning. Designed for beginners to quickly grasp Python fundamentals while practicing coding in a fun and engaging way.",
+    "features": [
+      "Step-by-step Python tutorials",
+      "Interactive code examples",
+      "Chapter-wise quizzes",
+      "Clean responsive design",
+      "Hosted on GitHub Pages"
+    ],
+    "additionalImages": [
+      "assets/projects/pythonproject.png",
+      "assets/projects/pythonproject1.png",
+      "assets/projects/pythonproject2.png"
+      
+    ]
+  },
+  {
+    "title": "ECHOSPACE - Empowering Voices, One Blog at a Time",
+    "imageSrc": "projects/echospace.png",
+    "description": "Developed a blog management system with user authentication, CRUD operations, content categorization, and admin approval workflows. This enhanced my full-stack development, API design, and database optimization skills while improving security and moderation techniques.",
+    "skills": ["CodeIgniter 4", "PHP", "MySQL", "JavaScript", "jQuery", "Bootstrap", "HTML", "CSS", "AJAX"],
+    "details": "/projects/echospace",
+    "source": "https://github.com/Aman-0402/EchoSpace-Blog-Management-System-",
+    "longDescription": "ECHOSPACE is a full-stack blog management system that allows users to create, edit, and manage their blogs with an intuitive UI. Features include user authentication, role-based access, content categorization, and an admin approval workflow.",
+    "features": [
+      "User Authentication (Login & Signup)",
+      "Role-Based Access Control",
+      "Create, Read, Update, and Delete (CRUD) functionality",
+      "Content Categorization",
+      "Admin Approval Workflow",
+      "Rich Text Editor for blog creation"
+    ],
+    "additionalImages": [
+      "assets/projects/echospace.png",
+      "assets/projects/adminpanel-echospace.png",
+      "assets/projects/loginadmin-echospace.png",
+      "assets/projects/registeruser-echospace.png",
+      "assets/projects/commentreact-echospace.png",
+      "assets/projects/userlogin-echospace.png",
+      "assets/projects/flappybird-timepass.png"
+    ]
+  },
+  {
+    "title": "Python eBook – Learn Python the Fun Way!",
+    "imageSrc": "projects/javaebook1.png",
+    "description": "Dynamic and interactive Python learning platform with modular chapters, quizzes, and code examples.",
+    "skills": ["HTML", "CSS", "JavaScript", "JSON", "jQuery", "Prism.js"],
+    "details": "/projects/python-ebook",
+    "source": "#",
+    "longDescription": "Built a dynamic and interactive Python learning platform with modular chapters, quizzes, and code examples. Integrated real-time syntax-highlighted code blocks and topic-wise MCQs for deeper engagement. Enabled smooth navigation, light/dark mode toggle, and bookmark features to enhance learner experience.",
+    "features": [
+      "Modular chapters with interactive content",
+      "Real-time syntax-highlighted code blocks",
+      "Topic-wise MCQs and quizzes",
+      "Light/dark mode toggle",
+      "Bookmark and progress tracking"
+    ],
+    "additionalImages": [
+      "assets/projects/javaebook1.png"
+    ]
+  },
+  {
+    "title": "Web Development eBook – Code the Web, Step by Step",
+    "imageSrc": "projects/javascript1.png",
+    "description": "Comprehensive learning portal for HTML, CSS, JavaScript, and responsive design with interactive playgrounds.",
+    "skills": ["HTML5", "CSS3", "JavaScript", "Bootstrap", "JSON", "jQuery"],
+    "details": "/projects/webdev-ebook",
+    "source": "#",
+    "longDescription": "Developed a comprehensive learning portal covering HTML, CSS, JavaScript, and responsive design principles. Organized content using collapsible side navigation and interactive playgrounds for live previews. Designed with progressive learning flow, mini projects, and certification quizzes for skill assessment.",
+    "features": [
+      "Collapsible side navigation",
+      "Interactive code playgrounds",
+      "Mini projects and certification quizzes",
+      "Responsive design principles"
+    ],
+    "additionalImages": [
+      "assets/projects/javascript1.png"
+    ]
+  },
+  {
+    "title": "Java eBook – Master Java from Basics to Advanced",
+    "imageSrc": "projects/javaebook2.png",
+    "description": "Structured eBook with OOP, collections, file handling, and real-world projects. Optimized for all devices.",
+    "skills": ["HTML", "CSS", "JavaScript", "Bootstrap", "JSON", "Prism.js"],
+    "details": "/projects/java-ebook",
+    "source": "#",
+    "longDescription": "Created a structured eBook with chapters on OOP, collections, file handling, and real-world projects. Integrated expandable topic sections, syntax-highlighted code blocks, and MCQs with explanations. Optimized for learning across devices with a clean UI, chapter tracking, and downloadable examples.",
+    "features": [
+      "Expandable topic sections",
+      "Syntax-highlighted code blocks",
+      "MCQs with explanations",
+      "Device-optimized UI and chapter tracking"
+    ],
+    "additionalImages": [
+      "assets/projects/javaebook2.png"
+    ]
+  },
+  {
+    "title": "Wine Quality Prediction",
+    "imageSrc": "projects/wine.png",
+    "description": "Machine learning project for predicting wine quality based on physicochemical tests.",
+    "skills": ["Python", "Pandas", "NumPy", "Scikit-learn", "Matplotlib"],
+    "details": "/projects/wine-quality",
+    "source": "#",
+    "longDescription": "Developed a machine learning model to predict wine quality using various physicochemical properties. Explored data preprocessing, feature engineering, model selection, and evaluation techniques.",
+    "features": [
+      "Data preprocessing and feature engineering",
+      "Model selection and evaluation",
+      "Visualization of results"
+    ],
+    "additionalImages": [
+      "assets/projects/wine.png"
+    ]
+  },
+  {
+    "title": "Personal Portfolio using React",
+    "imageSrc": "projects/profilecard.png",
+    "description": "Advanced React portfolio with creative CSS animations, smooth transitions, and a modern, dynamic design. Includes landing, about, skills, projects, and contact sections.",
+    "skills": ["VS Code", "HTML", "CSS", "JavaScript", "React", "Bootstrap", "Tailwind"],
+    "details": "/projects/personal-portfolio",
+    "source": "#",
+    "longDescription": "My advanced React portfolio showcases my projects, skills, and experience with creative CSS animations and smooth transitions. It features a landing page, about section, skills, projects, and contact details. Built with React, Bootstrap, and Tailwind, it’s fully responsive with a modern, dynamic design.",
+    "features": [
+      "Creative CSS animations and transitions",
+      "Landing, about, skills, projects, and contact sections",
+      "Fully responsive and modern UI",
+      "Built with React, Bootstrap, and Tailwind"
+    ],
+    "additionalImages": [
+      "assets/projects/profilecard.png"
+    ]
+  }
+]

@@ -1,0 +1,132 @@
+@import "../../vars.css";
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 10%;
+  z-index: 100;
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(10px);
+  transition: background 0.4s ease-in-out;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--color-text);
+  transition: color 0.3s ease-in-out;
+}
+
+.title:hover {
+  color: var(--color-primary);
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Theme Toggle */
+.themeToggle {
+  background: var(--color-primary);
+  color: var(--color-text);
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.themeToggle:hover {
+  background: var(--color-accent);
+  transform: rotate(20deg) scale(1.1);
+}
+
+/* Menu Button */
+.menuBtn {
+  display: none;
+  width: 34px;
+  height: 34px;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.rotate {
+  transform: rotate(180deg);
+}
+
+/* Menu Items */
+.menuItems {
+  display: flex;
+  gap: 36px;
+  list-style: none;
+}
+
+.menuItems a {
+  font-size: 18px;
+  color: var(--color-text);
+  text-decoration: none;
+  position: relative;
+  transition: color 0.3s ease-in-out;
+}
+
+.menuItems a::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -5px;
+  width: 0;
+  height: 2px;
+  background: var(--color-primary);
+  transition: all 0.3s ease-in-out;
+  transform: translateX(-50%);
+}
+
+.menuItems a:hover {
+  color: var(--color-primary);
+}
+
+.menuItems a:hover::after {
+  width: 100%;
+}
+
+/* Mobile */
+@media screen and (max-width: 830px) {
+  .menuBtn {
+    display: block;
+  }
+
+  .menuItems {
+    position: absolute;
+    top: 70px;
+    right: 10%;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: var(--color-secondary);
+    backdrop-filter: blur(12px);
+    padding: 20px;
+    border-radius: 12px;
+    transform: translateY(-120%);
+    opacity: 0;
+    transition: transform 0.4s ease-in-out, opacity 0.3s ease-in-out;
+  }
+
+  .menuOpen {
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+  .menuItems a {
+    font-size: 20px;
+    padding: 10px;
+  }
+}

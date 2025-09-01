@@ -1,0 +1,115 @@
+@import "../vars.css";
+
+.container {
+  padding: 60px 0;
+  background: var(--color-card, #0b2447);
+}
+
+.title {
+  color: var(--color-accent, #64ffda);
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 36px;
+  letter-spacing: 1.2px;
+}
+
+.categoriesWrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 36px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.categoryCard {
+  background: var(--color-secondary, #19376d);
+  border-radius: 18px;
+  box-shadow: 0 4px 18px rgba(25, 55, 109, 0.15);
+  padding: 28px 20px 24px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+.categoryCard:hover {
+  box-shadow: 0 10px 26px rgba(25, 55, 109, 0.22);
+}
+
+.categoryTitle {
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border-bottom: 2px solid var(--color-accent, #64ffda);
+  padding-bottom: 7px;
+  margin-bottom: 18px;
+  width: 100%;
+  text-align: center;
+}
+
+.skillGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
+  gap: 18px;
+  justify-content: center;
+  width: 100%;
+}
+
+.skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+  transition: transform 0.25s ease;
+}
+
+.skill:hover {
+  transform: scale(1.15);
+}
+
+.skillImageContainer {
+  background: #233c6a;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 7px;
+  box-shadow: 0 4px 12px rgba(25, 55, 109, 0.12);
+  transition: all 0.3s ease;
+}
+
+.skill:hover .skillImageContainer {
+  background: var(--color-primary, #576cbc);
+  box-shadow: 0 0 18px var(--color-accent, #64ffda);
+}
+
+.skillImageContainer img {
+  width: 38px;
+  height: 38px;
+  object-fit: contain;
+}
+
+.skillTitle {
+  color: #e6e6e6;
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: 2px;
+  text-align: center;
+}
+
+@media screen and (max-width: 900px) {
+  .categoriesWrapper {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+  .categoryCard {
+    padding: 20px 14px;
+  }
+  .title {
+    font-size: 1.4rem;
+  }
+}

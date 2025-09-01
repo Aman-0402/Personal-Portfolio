@@ -1,0 +1,80 @@
+[
+  {
+    "role": "Technical & IT Instructor",
+    "organisation": "EthnoTech Academy",
+    "startDate": "April 2025",
+    "endDate": "Current",
+    "duration": "Ongoing",
+    "techStack": ["Python", "Data Science", "JavaScript", "Web Development"],
+    "experiences": [
+      "Delivered Python (Data Science) and JavaScript/Web Development training.",
+      "Led sessions at Parul University; mentored 450+ students."
+    ],
+    "imageSrc": "history/etho.png"
+  },
+  {
+    "role": "Technical & IT Instructor",
+    "organisation": "Databits Technologies",
+    "startDate": "June 2024",
+    "endDate": "Jan 2025",
+    "duration": "8 months",
+    "techStack": ["AI", "Machine Learning", "Python"],
+    "experiences": [
+      "Provided AI/ML training and project guidance.",
+      "Taught at GLA University; created advanced ML materials."
+    ],
+    "imageSrc": "history/Databits_Tecnologia.png"
+  },
+  {
+    "role": "Technical & IT Instructor",
+    "organisation": "W3Grads",
+    "startDate": "Aug 2022",
+    "endDate": "March 2023",
+    "duration": "8 months",
+    "techStack": ["HTML", "CSS", "JavaScript", "Web Development"],
+    "experiences": [
+      "Conducted hands-on Web Development training.",
+      "Trained 450+ students at GITA University."
+    ],
+    "imageSrc": "history/w3grads.png"
+  },
+  {
+    "role": "Technical & IT Instructor",
+    "organisation": "Gyeint",
+    "startDate": "Jan 2022",
+    "endDate": "June 2022",
+    "duration": "6 months",
+    "techStack": ["Python", "Data Structures", "Algorithms"],
+    "experiences": [
+      "Led Python training with real-world applications.",
+      "Taught 350+ students at Sarla Birla University."
+    ],
+    "imageSrc": "history/gyeint.png"
+  },
+  {
+    "role": "Technical & IT Instructor",
+    "organisation": "Coding Blocks",
+    "startDate": "July 2021",
+    "endDate": "Dec 2021",
+    "duration": "6 months",
+    "techStack": ["MongoDB", "Express.js", "React.js", "Node.js", "MERN Stack"],
+    "experiences": [
+      "Instructed MERN Stack development.",
+      "Trained 550+ students at Shri Nath University."
+    ],
+    "imageSrc": "history/codingblocks.png"
+  },
+  {
+    "role": "Technical & IT Instructor",
+    "organisation": "Moniba",
+    "startDate": "April 2021",
+    "endDate": "June 2021",
+    "duration": "3 months",
+    "techStack": ["Artificial Intelligence", "Machine Learning", "Deep Learning"],
+    "experiences": [
+      "Taught AI & ML with practical focus.",
+      "Mentored 600+ students at Arka Jain University."
+    ],
+    "imageSrc": "history/moniba.png"
+  }
+]
